@@ -3,6 +3,7 @@ node_js:
   - "6"
 
 after_script:
+  - npm test
   - cd ./w-zuoye-ThirdComponents
   - git init
   - git config user.name "${USER_NAME}"
